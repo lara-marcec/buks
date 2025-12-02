@@ -1,0 +1,83 @@
+.bookSearchPage-container{
+  font-family: "Inter";
+  padding-bottom: 100px;
+}
+
+.search-input{
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  font-size: 1rem;
+  font-family: "GeneralSans";
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #222222;
+  width: 100%;
+}
+
+.search-btn, .clean-btn{
+  background-color: transparent;
+  
+  color: #222222;
+  padding: 0.75rem 1rem 0.5rem 0.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.search-container{
+  grid-column: 2;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: tra;
+  border-radius: 0px;
+  border: 1px solid #222222;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.search-form:focus-within {
+  border-bottom: 2px solid #B33838; 
+  border-radius: 3px;
+}
+
+.search-input:focus{
+  border:0px solid transparent;
+  outline: none;
+}
+
+.search-btn:hover{
+  font-weight: 700;
+  color: #B33838;
+}
+
+.search-icon{
+  width: 20px;
+}
+
+.clean-icon{
+  width: 15px;
+}
+
+@media (max-width: 480px) {
+  .result-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-form {
+    flex-direction: column;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  backdrop-filter: blur(4px);
+  border-bottom: 2px solid #660000;
+  font-family: "GeneralSans";
+}
+
+.header .logo {
+  width: 120px;
+  height: auto;
+}
+
+.header .header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header button {
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.header button:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.logout-btn {
+  background-color: #374151;
+  color: #ffffffdd;
+}
+
+.search-toggle-btn {
+  background-color: #9B7E46;
+  color: #222222;
+  font-weight: 800;
+}
